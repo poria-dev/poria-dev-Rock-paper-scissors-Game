@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+
+    <h1>🎮 سنگ کاغذ قیچی</h1>
+
+    <div class="row">
+
+        <div class="player">
+
+            <figure>
+
+                <div class="imageBox">
+                    <img src="" id="imguser1">
+                </div>
+
+                <figcaption>👤 User 1</figcaption>
+
+            </figure>
+
+        </div>
+
+        <div class="centerText">
+
+            <h2 id="h2">
+                برای شروع روی عکسا کلیک کن
+            </h2>
+
+        </div>
+
+        <div class="player">
+
+            <figure>
+
+                <div class="imageBox">
+                    <img src="" id="imguser2">
+                </div>
+
+                <figcaption>🤖 Computer</figcaption>
+
+            </figure>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="buttons">
+
+        <div class="btnuser1">
+
+            <div onclick="imguser(0)">
+                <img src="img/cut.jpg">
+            </div>
+
+            <div onclick="imguser(1)">
+                <img src="img/ka.jpg">
+            </div>
+
+            <div onclick="imguser(2)">
+                <img src="img/stone.jpg">
+            </div>
+
+        </div>
+
+        <div class="score">
+
+            <h3 id="points1">User 1 : </h3>
+            <h3 id="points2">Computer : </h3>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
